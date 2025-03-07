@@ -1,0 +1,63 @@
+/* General styling */
+.gradio-container {
+    background-color: #ffffff;
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+}
+
+/* Center the chatbot */
+.chatbot {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* User messages (right-aligned, blue) */
+.user-message {
+    background-color: #007aff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+/* Bot messages (left-aligned, gray) */
+.bot-message {
+    background-color: #e5e5ea;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+/* Chatbox container */
+.chatbot .message-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Add avatars */
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.bot-container {
+    display: flex;
+    align-items: center;
+}
